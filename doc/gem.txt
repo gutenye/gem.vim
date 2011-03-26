@@ -1,0 +1,80 @@
+*gem.txt*       For Vim version 7.0 or later.  Last change: 2011 March
+		    by Guten
+
+1. Overview 					|overview|
+2. Command list					|command-list|
+3. Architecture					|architecture|
+4. Resources					|rescurces|
+
+==============================================================================
+1. Overview			         *overview*
+
+`gem' is a helper for ruby gem/library development.
+for example: >
+
+  :Rl hello
+
+it runs `:edit lib/hello.rb` command
+
+:Rl command find lib/*, `lib/*/*`  and cur-file-dir/*, prority
+is from low to high.  when there is name conflict, always use higher prority one.
+For Example: >
+  lib/
+    hello.rb
+    hello/
+      a.rb
+      ffi/
+        termios.rb
+        ioctl.rb
+
+  :Rl hello     " open lib/hello.rb  at lib/* level
+  :Rl a         " open lib/hello/a.rb at lib/*/* level
+  :Rl ffi/<TAB> " complete for lib/hello/ffi/
+
+  :e lib/hello/ffi/termios.rb  " current you are in this file
+  :Rl ioctl " open lib/hello/ffi/ioctl.rb   at cur-file-dir/* level
+
+create new file >
+
+  :e lib/hello/a.rb 
+  :Rl hello/a.rb
+
+==============================================================================
+2. Command list                           *command-list*
+
+
+:Rl {name}                               	*:Rl*
+    Rlib open file in lib/ directory
+
+:Rs {name}                                *:Rs*
+    Rspec open file in spec/ directory
+    similar to Rl.
+    special:
+    helper -> spec_helper.rb
+
+:Rb {name}                               	*:Rb*
+    Rbin open file in bin/ directory
+
+:R {name}                                	*:R*
+    a convient command. if currnet file is a spec file, it use Rspec command,
+    otherwise it use Rlib command
+
+:Rtags								*:Rtags*
+    generate APP/tags file by `ctags`
+
+:A								*:A*
+    Alternative. switch between spec file and lib file directory
+
+:edit
+    system command :edit to edit Gemfile, Rakefile, and so on.
+
+:Rtree
+  open NERDTree 
+  use NERDTree 
+
+==============================================================================
+3. Resources
+
+- Homepage: github.com/GutenLinux/gem.vim
+
+" vim:tw=78:ts=8:ft=help:norl:
