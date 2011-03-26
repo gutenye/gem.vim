@@ -14,7 +14,7 @@ Install
 Resources
 ---------
 
-* [Rag](https://github.com/GutenLinux/tag): a project helper
+* [Rag](https://github.com/GutenLinux/rag): a project helper
 * [Rails.vim](https://github.com/tpope/vim-rails): a powerful tool for Ruby on Rails development
 * [NERD](https://github.com/scrooloose/nerdtree): a tree explorer in vim
 * [Vimana](https://github.com/c9s/Vimana): vim's package manager
