@@ -4,7 +4,7 @@ gem.vim a project helper for ruby gem/libraray development
 Overview
 --------
 
-easy navigation in gem directory. have :R :Rl :Rs command, and :A alternative for quich switch between lib and spec file. It works with rag(see resources). 
+easy navigation in gem directory. have :R :Rl :Rs command, and :A alternative for quich switch between lib and spec file. It works with rag(see resources). for more information please see doc/gem.txt
 
 Install
 -------
