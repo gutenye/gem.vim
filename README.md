@@ -1,12 +1,12 @@
 gem.vim a project helper for ruby gem/libraray development
 ===========================================================
 
-**GitHub**: [https://github.com/GutenLinux/gem.vim](https://github.com/GutenLinux/gem.vim) <br/>
+**GitHub**: [https://github.com/GutenYe/gem.vim](https://github.com/GutenYe/gem.vim) <br/>
 **Vim**: [http://www.vim.org/scripts/script.php?script_id=3523](http://www.vim.org/scripts/script.php?script_id=3523) <br/>
 **Author**:	Guten <br/>
 **License**: MIT-LICENSE <br/>
 **Documentation**: doc/gem.txt <br/>
-**Issue Tracker**: [https://github.com/GutenLinux/gem.vim/issues](https://github.com/GutenLinux/gem.vim/issues) <br/>
+**Issue Tracker**: [https://github.com/GutenYe/gem.vim/issues](https://github.com/GutenYe/gem.vim/issues) <br/>
 
 Overview
 --------
@@ -29,7 +29,7 @@ Install
 Resources
 ---------
 
-* [Rag](https://github.com/GutenLinux/rag): a project helper
+* [Rag](https://github.com/GutenYe/rag): a project helper
 * [Rails.vim](https://github.com/tpope/vim-rails): a powerful tool for Ruby on Rails development
 * [NERD](https://github.com/scrooloose/nerdtree): a tree explorer in vim
 * [Vimana](https://github.com/c9s/Vimana): vim's package manager

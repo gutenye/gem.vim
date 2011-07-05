@@ -75,6 +75,6 @@ create new file >
 ==============================================================================
 3. Resources
 
-- Homepage: github.com/GutenLinux/gem.vim
+- Homepage: github.com/GutenYe/gem.vim
 
 " vim:tw=78:ts=8:ft=help:norl:
