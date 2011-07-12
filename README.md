@@ -24,7 +24,8 @@ Contributing
 Install
 -------
 
-	vimana install gem.vim # see resources to get vimana
+	Bundle 'gem.vim' # use vundle
+
 
 Resources
 ---------
@@ -32,7 +33,7 @@ Resources
 * [Rag](https://github.com/GutenYe/rag): a project helper
 * [Rails.vim](https://github.com/tpope/vim-rails): a powerful tool for Ruby on Rails development
 * [NERD](https://github.com/scrooloose/nerdtree): a tree explorer in vim
-* [Vimana](https://github.com/c9s/Vimana): vim's package manager
+* [vundle](https://github.com/gmarik/vundle): the plug-in manager for Vim
 
 Copyright
 ---------
