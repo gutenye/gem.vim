@@ -21,8 +21,8 @@ Contributing
 * Improve documentation.
 * Feel free to post any ideas. 
 
-Install
--------
+Installation
+------------
 
 *  [NeoBundle](https://github.com/Shougo/neobundle.vim)
 
